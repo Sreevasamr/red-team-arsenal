@@ -6,8 +6,8 @@ If you discover a security issue in any script in this repository (for example, 
 
 Instead, report it privately:
 
-- Email: **REPLACE_WITH_YOUR_NOREPLY_EMAIL@users.noreply.github.com**
-- Subject: `[SECURITY] red-team-arsenal - <short description>`
+- Email: **285900227+Sreevasamr@users.noreply.github.com**
+- Subject: `red-team-arsenal`
 
 Please include:
 - The script and file path affected
