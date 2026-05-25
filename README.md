@@ -1,4 +1,4 @@
-# Red Team Scripts
+# Red Team Arsenal
 
 A curated collection of offensive security scripts for reconnaissance, enumeration, exploitation, post-exploitation, and reporting. Built for authorized penetration testing and red team engagements.
 
@@ -51,11 +51,14 @@ The author(s) of this repository assume **no liability** and are **not responsib
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/cybersec-scripts.git
-cd cybersec-scripts
+git clone https://github.com/Sreevasamr/red-team-arsenal.git
+cd red-team-arsenal
 
 # Set up a Python virtual environment
-python3 -m venv .venv
+python -m venv .venv
+# Windows:
+.venv\Scripts\activate
+# Linux / macOS:
 source .venv/bin/activate
 
 # Install shared dependencies
@@ -87,7 +90,7 @@ Each script directory has its own `README.md` with usage instructions and depend
 
 ## License
 
-MIT License. See [LICENSE](LICENSE) for details.
+MIT License © 2026 Sreevasa M R. See [LICENSE](LICENSE) for details.
 
 ---
 

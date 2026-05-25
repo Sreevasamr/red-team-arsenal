@@ -6,8 +6,8 @@ If you discover a security issue in any script in this repository (for example, 
 
 Instead, report it privately:
 
-- Email: **<your-email@example.com>**
-- Subject: `[SECURITY] cybersec-scripts - <short description>`
+- Email: **REPLACE_WITH_YOUR_NOREPLY_EMAIL@users.noreply.github.com**
+- Subject: `[SECURITY] red-team-arsenal - <short description>`
 
 Please include:
 - The script and file path affected
@@ -20,3 +20,7 @@ You will receive an acknowledgment within 72 hours. Confirmed issues will be pat
 ## Scope
 
 This policy covers bugs **within the scripts themselves** — not vulnerabilities in third-party targets discovered using them. For target-side vulnerabilities, follow that vendor's responsible disclosure process.
+
+## Maintainer
+
+Maintained by **Sreevasa M R**.
