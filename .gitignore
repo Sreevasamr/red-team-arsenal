@@ -1,0 +1,82 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Environment / Secrets ---
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+credentials.*
+config.local.*
+secrets.*
+
+# --- Engagement / Client data (NEVER commit) ---
+engagements/
+clients/
+targets.txt
+scope.txt
+loot/
+exfil/
+captured/
+hashes/
+*.kdbx
+
+# --- Tool output ---
+*.log
+*.pcap
+*.pcapng
+nmap-results/
+gobuster-results/
+ffuf-results/
+nuclei-output/
+*.nessus
+*.xml.bak
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Binaries / payloads ---
+*.exe
+*.dll
+*.bin
+*.elf
+*.apk
+payloads/compiled/
+shellcode/raw/
+
+# --- Reports (often contain sensitive info) ---
+reports/*.pdf
+reports/*.docx
+reports/draft/
+
+# --- Misc ---
+node_modules/
+.coverage
+htmlcov/

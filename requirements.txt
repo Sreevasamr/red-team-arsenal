@@ -1,0 +1,36 @@
+# Core HTTP / networking
+requests>=2.31.0
+httpx>=0.27.0
+aiohttp>=3.9.0
+
+# Async / concurrency
+anyio>=4.0.0
+
+# Networking / scanning
+scapy>=2.5.0
+python-nmap>=0.7.1
+dnspython>=2.5.0
+impacket>=0.11.0
+
+# Web / parsing
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+selectolax>=0.3.20
+
+# CLI / UX
+rich>=13.7.0
+typer>=0.12.0
+tqdm>=4.66.0
+
+# Crypto / hashing
+cryptography>=42.0.0
+pycryptodome>=3.20.0
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+
+# Dev / quality
+ruff>=0.4.0
+bandit>=1.7.0
+pytest>=8.0.0
